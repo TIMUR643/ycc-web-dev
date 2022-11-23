@@ -1,0 +1,31 @@
+@import url('https://')
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" , sans-serif;
+
+
+}
+.container {
+    background: radial-gradient( rgba(61, 1, 66, 0.562),rgb(0, 38, 255));
+    height: 100vh;
+    overflow:hidden
+}
+.center-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 255, 255);
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+
+}
+.center-card h1 {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid silver;
+
+}

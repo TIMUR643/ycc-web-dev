@@ -1,30 +1,38 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
     <title>Авторизация</title>
 </head>
-<body style="background-color: lightskyblue;">
-    <h1 style="color: black;">Вход</h1>
-    <form action="/signin" method="post">
-        <span>Логин:</span>
-        <input type="text" placeholder="Введите имя"> 
-        <br>
-        <span>Пароль:</span>
-        <input type="password" placeholder="Введите пароль">
-        <br>
-        <input type="checkbox">
-        <span>Запомнить меня</span>
-        <br>
-    
-        <input type="submit" value="Войти" height="111" type="color" value="#55cc77">
 
-    
-    </form>
-   
+<body>
+    <div class="container">
+        <div class="center-card">
+            <h1>Вход</h1>
+            <form action="/signin" method="post">
+                <span>Логин:</span>
+                <input type="text" placeholder="Введите имя">
+                <br>
+                <span>Пароль:</span>
+                <input type="password" placeholder="Введите пароль">
+                <br>
+                <input type="checkbox">
+                <span>Запомнить меня</span>
+                <br>
+
+                <input type="submit" value="Войти">
+
+
+            </form>
+        </div>
+    </div>
+
+
 
 </body>
+
 </html>
