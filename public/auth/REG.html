@@ -13,26 +13,30 @@
     <div class="container">
         <div class="center-card">
             <h1>Вход</h1>
-            <form action="/signin" method="post">
-                <span>Логин:</span>
-                <input type="text" placeholder="Введите имя">
-                <br>
-                <span>Пароль:</span>
-                <input type="password" placeholder="Введите пароль">
-                <br>
-                <input type="checkbox">
-                <span>Запомнить меня</span>
-                <br>
+            <form class="card-body" action="/signin" method="post">
+                <div class="field">
+                    <input id="login" type="text">
+                    <span></span>
+                    <label for="login">Логин:</label>
 
+                </div>
+                <div class="field">
+                    <input id="password" type="password">
+                    <span></span>
+                    <label for="password">Пароль:</label>
+
+                </div>
+                <div class="field">
+                    <input type="checkbox">
+                    <span></span>
+                    <label>Запомнить меня</label>
+                </div>
+                <a href="/signin.html">Ссылка на регистацию</a>
+                <br>
                 <input type="submit" value="Войти">
-
-
             </form>
         </div>
     </div>
-
-
-
 </body>
 
 </html>
