@@ -17,7 +17,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgb(255, 255, 255);
-    width: 400px;
+    width: 500px;
     border-radius: 25px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 
@@ -27,9 +27,7 @@
     text-align: center;
     padding: 20px 0;
     border-bottom: 1px solid #FB2828;
-
 }
-
 .center-card .card-body {
     padding: 0 40px;
     box-sizing: border-box;
@@ -54,13 +52,13 @@
 
 .field label {
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 5px;
     color: rgb(0, 0, 0);
-    transform: translateY(-50%);
+   
     font-size: 16px;
     pointer-events: none;
-    transition: .5s;
+    transition: 0.5s;
 }
 .field span::before {
     content: '';
@@ -70,7 +68,7 @@
     width: 0%;
     height: 2px;
     background: blue;
-    transition: .5s;
+    transition: 0.5s;
 }
 .field input:focus ~ label, 
 .field input:valid ~ label{

@@ -5,19 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/style_1.css">
     <title>Регистрация</title>
 </head>
 
 <body>
-    <div class="register-form-container">
+    <div class="container">
         <div class="center-card">
-            <h1>Регистрация</h1>
+            <h1>Зарегистрируйтесь</h1>
+            
             <form class="card-body" action="/signin" method="post">
                 <div class="field">
                     <input id="login" type="text">
                     <span></span>
-                    <label for="login">Логин:</label>
+                    <label for="login">Введите логин:</label>
+
+                </div>
+                <div class="field">
+                    <input id="login" type="text">
+                    <span></span>
+                    <label for="login">Введите E-mail:</label>
 
                 </div>
                 <div class="field">
@@ -26,12 +33,19 @@
                     <label for="password">Пароль:</label>
 
                 </div>
+                <div class="field">
+                    <input id="password" type="password">
+                    <span></span>
+                    <label for="password">Повторите пароль:</label>
+
+                </div>
+        
         
                 
-                <input class="form-btn" type="submit" value="Войти">
+                <input class="form-btn" type="submit" value="Зарегистрироваться">
                 <div class="form-link">
-                    Hе снами?
-                <a href="/signin.html">Залетай</a>
+                    Уже есть аккаунт?
+                <a href="REG.html">Войти</a>
                 
             </div>
             
